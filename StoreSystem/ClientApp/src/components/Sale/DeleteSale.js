@@ -67,7 +67,7 @@ export class DeleteSale extends Component {
                 onClose={this.resetState}>
 
                 < Modal.Header>Delete sale</Modal.Header >
-let
+
                 <Modal.Content> Are you sure?</Modal.Content>
 
                 <Form onSubmit={this.handleSubmit}>
