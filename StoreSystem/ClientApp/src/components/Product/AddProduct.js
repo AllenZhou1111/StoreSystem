@@ -8,7 +8,7 @@ export class AddProduct extends Component {
         super(props);
         this.state = {
             name: "",
-            price: -1,
+            price: 0,
             addOpen:false,
         };
         this.handleInputChange = this.handleInputChange.bind(this);
@@ -46,7 +46,7 @@ export class AddProduct extends Component {
     }
 
     resetState() {
-        this.setState({ name: "", price: -1 });
+        this.setState({ name: "", price: 0 });
     }
 
     handleInputChange(event) {
